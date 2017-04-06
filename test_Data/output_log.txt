@@ -1,0 +1,32 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\MultiplayerGameProgramming.dll (this message is harmless)
+Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\MultiplayerGameProgramming.dll into Unity Child Domain
+- Completed reload, in  0.096 seconds
+Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x2130 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.680512 ms
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: fb64 -> priority: 1 
+  Thread -> id: e994 -> priority: 1 
+  Thread -> id: fbb0 -> priority: 1 
