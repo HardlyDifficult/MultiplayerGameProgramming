@@ -42,13 +42,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ButtonClient.cs" />
-    <Compile Include="ButtonServer.cs" />
-    <Compile Include="ChatBox.cs" />
-    <Compile Include="GuiHelpers.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="Udp\UdpConnectedClient.cs" />
+    <Compile Include="UI\ButtonClient.cs" />
+    <Compile Include="UI\ButtonServer.cs" />
+    <Compile Include="UI\ChatBox.cs" />
+    <Compile Include="UI\GuiHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TCPChat.cs" />
-    <Compile Include="UDPChat.cs" />
+    <Compile Include="Tcp\TCPChat.cs" />
+    <Compile Include="Tcp\TcpConnectedClient.cs" />
+    <Compile Include="Udp\UDPChat.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

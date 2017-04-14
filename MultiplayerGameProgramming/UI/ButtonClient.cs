@@ -20,8 +20,8 @@ namespace HD
     {
       IPAddress ip = IPAddress.Parse(GameObject.Find("InputFieldIP").GetComponent<InputField>().text);
 
-      udp.GetComponent<UDPChat>().ip = ip;
-      tcpClient.GetComponent<TCPChat>().ip = ip;
+      udp.GetComponent<UDPChat>().serverIp = ip;
+      tcpClient.GetComponent<TCPChat>().serverIp = ip;
 
       udp.SetActive(true);
       tcpClient.SetActive(true);
