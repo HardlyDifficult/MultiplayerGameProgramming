@@ -68,6 +68,7 @@ namespace HD
     internal void EndConnect(IAsyncResult ar)
     {
       connection.EndConnect(ar);
+
       stream.BeginRead(readBuffer, 0, readBuffer.Length, OnRead, null);
     }
     #endregion

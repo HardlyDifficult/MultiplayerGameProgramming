@@ -26,6 +26,9 @@ namespace HD
   //  listOfSocketsToCheckForRead[i].Receive(...);
   //}
 
+
+
+
   public class TCPChat : MonoBehaviour
   {
     #region Data
@@ -97,6 +100,7 @@ namespace HD
     {
       TcpClient tcpClient = listener.EndAcceptTcpClient(ar);
       clientList.Add(new TcpConnectedClient(tcpClient));
+
       listener.BeginAcceptTcpClient(OnServerConnect, null);
     }
     #endregion
