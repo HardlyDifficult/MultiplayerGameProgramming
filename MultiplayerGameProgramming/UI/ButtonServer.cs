@@ -11,6 +11,7 @@ namespace HD
 
     public void OnClick()
     {
+      Globals.isServer = true;
       tcpServer.SetActive(true);
       udp.SetActive(true);
       GuiHelpers.OpenStep2();

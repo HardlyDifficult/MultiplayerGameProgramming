@@ -5,7 +5,7 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
     Vendor:   NVIDIA
     VRAM:     2017 MB
-    Driver:   21.21.13.7653
+    Driver:   22.21.13.8189
 Begin MonoManager ReloadAssembly
 Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -17,7 +17,7 @@ Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEng
 Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\MultiplayerGameProgramming.dll (this message is harmless)
 Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\MultiplayerGameProgramming.dll into Unity Child Domain
-- Completed reload, in  0.021 seconds
+- Completed reload, in  0.076 seconds
 Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x2130 at 0,0
@@ -25,48 +25,12 @@ desktop: 1920x1080 60Hz; virtual: 1920x2130 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.144488 ms
+UnloadTime: 0.940890 ms
 Setting up 3 worker threads for Enlighten.
-  Thread -> id: 321dc -> priority: 1 
-  Thread -> id: 32c9c -> priority: 1 
-  Thread -> id: 31108 -> priority: 1 
-Connect to 127.0.0.1:56789
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Initialize engine version: 5.6.0f3 (497a0f351392)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
-    Vendor:   NVIDIA
-    VRAM:     2017 MB
-    Driver:   21.21.13.7653
-Begin MonoManager ReloadAssembly
-Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\MultiplayerGameProgramming.dll (this message is harmless)
-Loading C:\Code\MultiplayerGameProgramming\test_Data\Managed\MultiplayerGameProgramming.dll into Unity Child Domain
-- Completed reload, in  0.019 seconds
-Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Code\MultiplayerGameProgramming\test_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x2130 at 0,0
-<RI> Initializing input.
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
-<RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 0.987572 ms
-Setting up 3 worker threads for Enlighten.
-  Thread -> id: 328d4 -> priority: 1 
-  Thread -> id: 328cc -> priority: 1 
-  Thread -> id: 32ee0 -> priority: 1 
-Connect to 127.0.0.1:56789
+  Thread -> id: 2c64 -> priority: 1 
+  Thread -> id: 235c -> priority: 1 
+  Thread -> id: 4d90 -> priority: 1 
+Connect to 127.0.0.1:50678
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

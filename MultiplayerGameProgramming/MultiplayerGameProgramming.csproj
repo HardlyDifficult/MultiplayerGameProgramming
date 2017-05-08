@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Globals.cs" />
+    <Compile Include="Serialization\MoveBall.cs" />
+    <Compile Include="Serialization\Vector3Surrogate.cs" />
     <Compile Include="Udp\UdpConnectedClient.cs" />
     <Compile Include="UI\ButtonClient.cs" />
     <Compile Include="UI\ButtonServer.cs" />
@@ -52,6 +54,9 @@
     <Compile Include="Tcp\TCPChat.cs" />
     <Compile Include="Tcp\TcpConnectedClient.cs" />
     <Compile Include="Udp\UDPChat.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Serialization\Serialization.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

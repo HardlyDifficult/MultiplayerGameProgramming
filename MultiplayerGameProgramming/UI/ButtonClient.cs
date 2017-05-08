@@ -18,6 +18,8 @@ namespace HD
 
     public void OnClick()
     {
+      Globals.isServer = false;
+
       IPAddress ip = IPAddress.Parse(GameObject.Find("InputFieldIP").GetComponent<InputField>().text);
 
       udp.GetComponent<UDPChat>().serverIp = ip;

@@ -8,5 +8,7 @@ namespace HD
   public static class Globals
   {
     public const int port = 56789;
+
+    public static bool isServer;
   }
 }

@@ -1,0 +1,11 @@
+﻿ - Define serialization 
+ x- Stream read/write Byte and Bits (for bit stream see 114)
+ - Inlining
+ - Linking by Ids (covered next ch, see p123 dealing with missing objects is not clear)
+ - Compression
+ -- Sparse Array compression (e.g. null terminating string)
+ o-- Entropy Encoding - 'based on how unexpected it is' e.g. vector z usually 0.  Also Huffman.  See p127
+ x-- Fixed Point - float compression by considering min, max, and precision to convert to ushort (ish).
+ --- Geometry - Quaternion from 128 bits to 49 bits (convert xyz to ushort, calc w) (and Matrix)
+ x- Serialize 
+
