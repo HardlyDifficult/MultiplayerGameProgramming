@@ -108,19 +108,25 @@ namespace HD
 
     private void SendPositionUpdateViaMemoryStream(byte[] data)
     {
-      short compressedX = (short)BitConverter.ToInt16(data, 0);
+      int currentOffset = 0; 
+      short compressedX = (short)BitConverter.ToInt16(data, currentOffset);
+      currentOffset += sizeof(short);
       float x = ConvertFromFixed(compressedX);
 
-      float y = BitConverter.ToSingle(data, 4);
+      float y = BitConverter.ToSingle(data, currentOffset);
+      currentOffset += sizeof(float);
 
-      bool isZ0 = BitConverter.ToBoolean(data, 12);
+      bool isZ0 = BitConverter.ToBoolean(data, currentOffset);
+      currentOffset += sizeof(bool);
+
       float z;
       if(isZ0)
       {
         z = 0;
       } else
       {
-        z = BitConverter.ToSingle(data, 13);
+        z = BitConverter.ToSingle(data, currentOffset);
+        currentOffset += sizeof(float);
       }
 
       transform.position = new Vector3(x, transform.position.y, z);
